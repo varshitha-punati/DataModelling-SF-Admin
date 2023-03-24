@@ -176,6 +176,16 @@ There are two different types of Objects
 - We can also have roll-up summary fields in master-detail relationships which helps us to calculate values from child records by using aggregate functions like  	Count, Sum,  Min, Max.
 - The master-detail field is required on the detail record’s page layout.
 - We can only create a maximum of 2 master-detail relationships per object. In a master-detail relationship both the objects are strongly coupled to each other.
+- --------------------------------------------------------------------------------------------------------------------------------------
+- #### important points
+- You cannot create a new Master-Detail relationship on an existing custom object if records already exist. 
+- You must first create a Lookup relationship, populate the  lookup field with data in all records, and then change the relationship type to Master-Detail.
+- you cannot create m-d between two standard objects
+- However, the standard object cannot be on the detail side of a relationship with a custom object. In addition, you cannot create a master-detail relationship in      which the User or Leadobjects are the master.
+
+ - Considerations for Relationships You can convert a master-detail relationship to a lookup relationship as long as no roll-up summary fields exist on the master      object.
+ -  You can convert a lookup relationship to a master-detail relationship, but only if the lookup field in all records contains a value.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 - ### 2.Lookup Relationship
 - In this, both objects are loosely coupled, which means that if one gets deleted then the related object will not get deleted.
 
@@ -190,12 +200,12 @@ There are two different types of Objects
 - Some important points to remember:
 - If we delete a child record and then restore it from the recycle bin, the master-detail relationship gets lost at the time of deletion and does not get restored     after child/detail getting restored.
 - To convert a master-detail to look-up we have to check that there is no roll-up summary field available and can convert a look-up to master-detail if lookup field   in all records contains a value.
-- 
+- ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 - ### 3. Many-to-Many relationships:
 - In many-to-many relationships, records of particular objects are linked to multiple records of different objects and vice versa. 
 - There is no such field as a many-to-many relationship in Salesforce, we can create a many-to-many relationship by creating two master-detail relationships with a common object. 
 - This common object can also be specified as the junction object.
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
 - ### 4. Self-relationship:
 -Self-relationship simply means creating a relationship with itself. 
 - In this, we can relate an object with itself by look-up. Example: Account object has a field called Parent Account which shows the self-relationship in Account.
