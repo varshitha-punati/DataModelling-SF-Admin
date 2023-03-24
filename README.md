@@ -113,6 +113,5 @@ There are two different types of Objects
 - Click on continue and select dependent fields under controlling fields. click on include & then Save. see the below screen for reference.
 - ![image](https://user-images.githubusercontent.com/72751737/227427222-80f65965-ecd8-441b-81c1-a7a09a1b515a.png)
 - Here you can include values
-- ![image](https://user-images.githubusercontent.com/72751737/227427268-a819d7f4-ac93-4642-8c89-987991c16059.png)
 
 
