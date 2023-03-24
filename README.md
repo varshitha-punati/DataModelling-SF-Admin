@@ -133,8 +133,9 @@ There are two different types of Objects
 ### Roll-Up Summary field
 - Roll-up summary fields work by calculating a summary value from child records and displaying it on a parent record. For example, a roll-up summary field on an account record could calculate the total value of all opportunities associated with that account
 - In order to create a roll-up summary field, you must first create a relationship between the parent object and the child object. This relationship must be a         master-detail relationship, as roll-up summary fields cannot be created on lookup relationships.
-- Once the relationship is established, you can create a roll-up summary field on the parent object. You can choose from a variety of summary functions, such as sum, average, count, minimum, and maximum, and specify which field on the child object should be used in the calculation.
--The roll-up summary field is automatically updated whenever child records are created, updated, or deleted, ensuring that the summary value is always accurate and up-to-date.
+- Once the relationship is established, you can create a roll-up summary field on the parent object. 
+- You can choose from a variety of summary functions, such as sum, average, count, minimum, and maximum, and specify which field on the child object should be used in the calculation.
+- The roll-up summary field is automatically updated whenever child records are created, updated, or deleted, ensuring that the summary value is always accurate and up-to-date.
 
  ##### CREATING ROLL-UP SUMMARY FIELDS
 - Creating roll-up information summary fields in Salesforce is a straightforward process, but it does require some planning and setup.
