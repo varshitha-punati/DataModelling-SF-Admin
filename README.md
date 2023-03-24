@@ -154,3 +154,5 @@ There are two different types of Objects
 - It provides a dynamic environment to view and modify all the objects and their relationships.
 - How to access Schema builder salesforce?
 - To build Salesforce Schema Builder go to Setup | Build | Schema Builder.
+- Schema Builder displays all standard and custom objects in our organisation. We have many option to view object like All Objects, Selected Objects, Standard      Objects, Custom Objects, System Objects. Depending upon our requirement we can select the objects that to be displayed. When we select custom objects it displays all    object in pictorial representation as shown below.
+- ![image](https://user-images.githubusercontent.com/72751737/227431371-49c820ba-74cd-4bd8-974e-c28775e48fd0.png)
