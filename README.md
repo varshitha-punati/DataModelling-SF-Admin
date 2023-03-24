@@ -40,3 +40,14 @@ There are two different types of Objects
 
 - In salesforce an App is nothing but three things-Name,Logo and Tabs(Set of tabs)
 - what that means is whenever you create an app
+- There are two different types of apps
+- i) Standard apps ==> Sales App
+- ii) Custom Apps ==> which we are going to create
+
+## Tabs
+- Tab is basically an UI component which allows to acess you to particular functionality
+- So when we talk about an application having differnet tabs means an application having differnent functionality
+- An application can have different functionality with different tabs
+- A single tab has its own functionality
+- There are different types of tabs as well
+- standard object tabs,custom object tabs,visualforce tab,lightning tab,web tab
