@@ -99,8 +99,8 @@ There are two different types of Objects
  - The Fields whose values gets controlled by controlling Field
 - Field Dependency works on three different datatypes
 - Data Type	Can we define as Controlling field	Can we define as Dependent field
-- Standard Picklist	      Yes	      No
-- Custom Picklist	         Yes	      Yes
-- Multi-Select pick list	No	         Yes
-- Checkbox	               Yes	      No
+- Standard Picklist	 ------------------------>     Yes------>No
+- Custom Picklist	  -------------------------->     Yes------>Yes
+- Multi-Select pick list---------------------->  	 No------->Yes
+- Checkbox------------------------------------>	    Yes------->No
 
