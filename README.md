@@ -74,6 +74,8 @@ There are two different types of Objects
 - 2.currency-->it is used to enter the currency in INR or Dollars or other currency
 - 3.Date ----> It Allows user to enter a date or pick a date from pop up calender
 - 4.Date / Time ---> It allows users to enter a date and time or pick a date from a pop up calender
+- 
+- <img width="566" alt="image" src="https://user-images.githubusercontent.com/72751737/227424306-2815d60a-a38a-4dd9-94d4-b9ea92a48a5a.png">
 - 5.Email ----->Allows users to enter an email address,which is validated to ensure proper format
 - 6.Geolocation ---> Allows users to define Locations.Includes latitude and Longitude components and can be used to calculate distance(latitude and longitude)
 - 7.Number--> Allows users to enter any number.Leading Zeros are removed
@@ -81,9 +83,7 @@ There are two different types of Objects
 - 9.phone--->Allows user to enter any phone number.Automatically formats it as phone number
 - 10.Picklist--Allows users to select a value from list you define
 - 11.picklist(multi-select)-Allows users to send Multiple values from a list you define
-- 12.Text(Allows 
-- <img width="566" alt="image" src="https://user-images.githubusercontent.com/72751737/227424306-2815d60a-a38a-4dd9-94d4-b9ea92a48a5a.png">
+- <img width="796" alt="image" src="https://user-images.githubusercontent.com/72751737/227424443-fec6710c-e96d-4247-ac2d-cfa1e32fea66.png">
 
-- 
 - 
 
