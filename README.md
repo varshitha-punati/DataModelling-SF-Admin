@@ -85,5 +85,22 @@ There are two different types of Objects
 - 11.picklist(multi-select)-Allows users to send Multiple values from a list you define
 - <img width="796" alt="image" src="https://user-images.githubusercontent.com/72751737/227424443-fec6710c-e96d-4247-ac2d-cfa1e32fea66.png">
 
-- 
+## Global Picklist
+- If the picklist that is common for most of the objects and we need to reuse in different object then we can create global picklist
+- so,for that goto=>picklistvalueset=>create one picklist
+- now goto =>object manager=>fields and relationships=>new=>piclist=>next=>select values
+ ## Field Dependency
+ - `Field dependency means, controlling a fields value based on the other field.
+ -  For example, there are two fields called Country & State. 
+ -  I want to display only states related specific selected country when I select country.
+ #### Controlling field
+ - The Field which controls the values of another fields
+ #### Dependent Fields
+ - The Fields whose values gets controlled by controlling Field
+- Field Dependency works on three different datatypes
+- Data Type	Can we define as Controlling field	Can we define as Dependent field
+- Standard Picklist	      Yes	      No
+- Custom Picklist	         Yes	      Yes
+- Multi-Select pick list	No	         Yes
+- Checkbox	               Yes	      No
 
