@@ -114,4 +114,36 @@ There are two different types of Objects
 - ![image](https://user-images.githubusercontent.com/72751737/227427222-80f65965-ecd8-441b-81c1-a7a09a1b515a.png)
 - Here you can include values
 
+### Validation Rules
+- Validation rules in salesforce contains a formula or expressions that evaluates the data in one or more  fields in a record to meet the standards and returns a value “True” or “False”. Validation rules displays error message to the user when the Condition is “False”.
+- Suppose in any website for phone number you tried enter the number which is not 10 digits then the phone nymber connect it will say
+- so,these are particular checks placed on evrything like forms. So that the data gets entered in the database is validated and right
+- Whenever you save a record it will goes to the validation rule on that object which you want to validate on which you want to be data to be stored
+- whenever you save a record it will goes to the validation rule and it validates its formula and these formual can return true or false
+- validation rules have two things
+- 1.Formula
+- 2.Error
+- If it returns false value then the record gets saved 
+- it if returns true then the error message will shown
+- AND(
+	Checkbox_Example__c = True,
+	ISBLANK(TEXT(Industry))
+)
 
+### Roll-Up Summary field
+- Roll-up summary fields work by calculating a summary value from child records and displaying it on a parent record. For example, a roll-up summary field on an account record could calculate the total value of all opportunities associated with that account
+- In order to create a roll-up summary field, you must first create a relationship between the parent object and the child object. This relationship must be a         master-detail relationship, as roll-up summary fields cannot be created on lookup relationships.
+- Once the relationship is established, you can create a roll-up summary field on the parent object. You can choose from a variety of summary functions, such as sum, average, count, minimum, and maximum, and specify which field on the child object should be used in the calculation.
+-The roll-up summary field is automatically updated whenever child records are created, updated, or deleted, ensuring that the summary value is always accurate and up-to-date.
+
+- CREATING ROLL-UP SUMMARY FIELDS
+- Creating roll-up information summary fields in Salesforce is a straightforward process, but it does require some planning and setup.
+- Here’s how to create a roll-up summary field:
+- Establish a master-detail relationship between the parent object and the child object.
+- Navigate to the parent object’s page layout and click on the gear icon in the upper right corner.
+- Click on “Edit Object” and scroll down to the “Fields” section.
+- Click on “New” and select “Roll-Up Summary” as the field type.
+- Name the field and select the object that you want to roll up data from.
+- Choose the summary function and field to roll up.
+- Select any additional filter criteria or grouping options, if necessary.
+- Save the field and add it to the page layout.
