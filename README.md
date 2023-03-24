@@ -103,5 +103,16 @@ There are two different types of Objects
 - Standard Picklist	 ------------------------>     Yes------>No
 - Custom Picklist	  -------------------------->     Yes------>Yes
 - Multi-Select pick list---------------------->  	 No------->Yes
-- Checkbox------------------------------------>	    Yes------->No
+- standard Checkbox--------------------------->	    Yes------->No
+- custom checkbox----------------------------->     Yes-------->No
+-
+- In fields and relationships there is a field dependency
+ - Go to  setup menu and select the object you want to create field dependency.
+– Click on filed dependency button & select controlling and dependent fields. See the below screen for reference.
+![image](https://user-images.githubusercontent.com/72751737/227427143-208ccd9e-58f1-48dd-b076-b0e37bc5a614.png)
+- Click on continue and select dependent fields under controlling fields. click on include & then Save. see the below screen for reference.
+- ![image](https://user-images.githubusercontent.com/72751737/227427222-80f65965-ecd8-441b-81c1-a7a09a1b515a.png)
+- Here you can include values
+- ![image](https://user-images.githubusercontent.com/72751737/227427268-a819d7f4-ac93-4642-8c89-987991c16059.png)
+
 
