@@ -35,7 +35,7 @@ There are two different types of Objects
 - Whenever think about standard Objecr you align your mind that it is a prebuild thing
 - We can Customize the standard Object or standard things is but we cannot delete it/remove it completely
 - But when comes to custom object we can remove or delete or customize the way we want
-
+ setup=>object manager =>create custom object=>select optional features(allow reports,Allow activities ,Tarck Field History,Allow in Chatter groups)
 # Apps :
 
 - In salesforce an App is nothing but three things-Name,Logo and Tabs(Set of tabs)
@@ -43,15 +43,47 @@ There are two different types of Objects
 - There are two different types of apps
 - i) Standard apps ==> Sales App
 - ii) Custom Apps ==> which we are going to create
-
+-- setup=> App Manager => New Lightning App
 ## Tabs
 - Tab is basically an UI component which allows to acess you to particular functionality
-- So when we talk about an application having differnet tabs means an application having differnent functionality
+- So when we talk about an application having differnet tabs means an application having different functionality
 - An application can have different functionality with different tabs
 - A single tab has its own functionality
 - There are different types of tabs as well
 - standard object tabs,custom object tabs,visualforce tab,lightning tab,web tab
-
+#### Important points
 - when the  custom app is deleted it doesn't effect any tab or object created in it
 - when the custom tab deleted the objects associated with it will not gets deleted
 - whenever we delete the custom object the tab associated to it will gets deleted and the tab will be automatically removed from the tab as well
+
+-----------------------------------------------------------------------------------------------------------------------------
+### Fields
+
+- Fields are used to store the different attributes of the same record/ same entity or same Object
+- There are two different types of fields
+- 1) Standard field --> The fields created by salesforce on its own
+- 2) Custom field --->The fields which created by us for requirement
+
+-standard fields we cannot delete and custom fields we can delete
+- Login=>salesforce=>Setup=>object
+- if you observe in every custom object there are some fileds are there like owner,created by,last modified by(which we created while creating object)
+- if you got objects if there is no delete option then it is standard object otherwise it is custom object
+- Goto =>setup=>Object Manger=>student Object=>Fields and Relationships=>New
+- #### Datatypes of fields
+- 1.checkbox-->used to select true or false(we need check or uncheck based on the requirement)
+- 2.currency-->it is used to enter the currency in INR or Dollars or other currency
+- 3.Date ----> It Allows user to enter a date or pick a date from pop up calender
+- 4.Date / Time ---> It allows users to enter a date and time or pick a date from a pop up calender
+- 5.Email ----->Allows users to enter an email address,which is validated to ensure proper format
+- 6.Geolocation ---> Allows users to define Locations.Includes latitude and Longitude components and can be used to calculate distance(latitude and longitude)
+- 7.Number--> Allows users to enter any number.Leading Zeros are removed
+- 8. Percent-->Allows user to enter a percentage number,for example, '10' and automatically adds the percen sign ot the number
+- 9.phone--->Allows user to enter any phone number.Automatically formats it as phone number
+- 10.Picklist--Allows users to select a value from list you define
+- 11.picklist(multi-select)-Allows users to send Multiple values from a list you define
+- 12.Text(Allows 
+- <img width="566" alt="image" src="https://user-images.githubusercontent.com/72751737/227424306-2815d60a-a38a-4dd9-94d4-b9ea92a48a5a.png">
+
+- 
+- 
+
