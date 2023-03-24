@@ -154,5 +154,25 @@ There are two different types of Objects
 - It provides a dynamic environment to view and modify all the objects and their relationships.
 - How to access Schema builder salesforce?
 - To build Salesforce Schema Builder go to Setup | Build | Schema Builder.
-- Schema Builder displays all standard and custom objects in our organisation. We have many option to view object like All Objects, Selected Objects, Standard      Objects, Custom Objects, System Objects. Depending upon our requirement we can select the objects that to be displayed. When we select custom objects it displays all    object in pictorial representation as shown below.
-- ![image](https://user-images.githubusercontent.com/72751737/227431371-49c820ba-74cd-4bd8-974e-c28775e48fd0.png)
+- Schema Builder displays all standard and custom objects in our organisation. We have many option to view object like All Objects, Selected Objects, Standard          Objects, Custom Objects, System Objects. Depending upon our requirement we can select the objects that to be displayed. When we select custom objects it displays     all object in pictorial representation as shown below.
+![image](https://user-images.githubusercontent.com/72751737/227431371-49c820ba-74cd-4bd8-974e-c28775e48fd0.png)
+
+## Relationships
+- Relationship is the way in which two or more people or things connected with each other. 
+- The way they connected will be of different types like wise in salesforce 
+- There are 4 different types of relationships in salesforce.
+- Master-Detail relationship.
+- Lookup Relationship.
+- Many-Many Relationship.
+- Hierarchy Relationship (we can not use this relationship).
+- # 1. Master-Detail relationship:
+
+- In this type of relationship, one object acts as a master and other act as a detail object. In other words, this relationship acts as a parent-child relationship. - We use this type of relationship when we want to bound two objects tightly or closely dependent on each other.
+- The behavior of Master-Detail relationship:
+- When a master record gets deleted, its related child/detail record automatically gets deleted.
+- In a master-detail relationship both the objects are strongly coupled to each other.
+- Sharing and security settings of the detail records are inherited as per their master settings.
+- We can define this relationship in between custom objects and in between standard and custom objects. Note that, the standard object must be on the master side 	while creating relationships between standard and custom objects. 
+- We can also have roll-up summary fields in master-detail relationships which helps us to calculate values from child records by using aggregate functions like  	Count, Sum,  Min, Max.
+- The master-detail field is required on the detail record’s page layout.
+- We can only create a maximum of 2 master-detail relationships per object. In a master-detail relationship both the objects are strongly coupled to each other.
