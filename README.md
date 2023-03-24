@@ -148,3 +148,9 @@ There are two different types of Objects
 - Choose the summary function and field to roll up.
 - Select any additional filter criteria or grouping options, if necessary.
 - Save the field and add it to the page layout.
+
+#### Schema Builder
+- Schema builder salesforce is a pictorial representation of all objects, fields and their relationships in Salesforce.com.
+- It provides a dynamic environment to view and modify all the objects and their relationships.
+- How to access Schema builder salesforce?
+- To build Salesforce Schema Builder go to Setup | Build | Schema Builder.
