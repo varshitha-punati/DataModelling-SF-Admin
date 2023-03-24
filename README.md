@@ -51,3 +51,7 @@ There are two different types of Objects
 - A single tab has its own functionality
 - There are different types of tabs as well
 - standard object tabs,custom object tabs,visualforce tab,lightning tab,web tab
+
+when the  custom app is deleted it doesn't effect any tab or object created in it
+when the custom tab deleted the objects associated with it will not gets deleted
+
