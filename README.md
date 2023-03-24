@@ -219,6 +219,9 @@ There are two different types of Objects
 - As per best practice, we should not have more than 10,000 child records for a master-detail relationship.
 - A junction object can’t be master in another master-detail relationship.
 - There are two relations one is primary master-detail relationship and secondary master-detail relationship
+- The first relationship we created to junction Object is primary Mater Relationship
+- And second we create is called secondary Master-relationship
+- In salesforce we can create 40 relationships in that 2 will be M-D realtionship and other 38 will be look up relationship
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 - ### 4. Self-relationship:
 -Self-relationship simply means creating a relationship with itself. 
