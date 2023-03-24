@@ -190,6 +190,7 @@ There are two different types of Objects
 - Some important points to remember:
 - If we delete a child record and then restore it from the recycle bin, the master-detail relationship gets lost at the time of deletion and does not get restored     after child/detail getting restored.
 - To convert a master-detail to look-up we have to check that there is no roll-up summary field available and can convert a look-up to master-detail if lookup field   in all records contains a value.
+- 
 - ### 3. Many-to-Many relationships:
 - In many-to-many relationships, records of particular objects are linked to multiple records of different objects and vice versa. 
 - There is no such field as a many-to-many relationship in Salesforce, we can create a many-to-many relationship by creating two master-detail relationships with a common object. 
