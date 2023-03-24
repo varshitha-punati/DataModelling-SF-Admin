@@ -218,6 +218,7 @@ There are two different types of Objects
 - You cannot create a master-detail relationship in which the User or Lead objects are at the master side of relationship.
 - As per best practice, we should not have more than 10,000 child records for a master-detail relationship.
 - A junction object can’t be master in another master-detail relationship.
+- There are two relations one is primary master-detail relationship and secondary master-detail relationship
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 - ### 4. Self-relationship:
 -Self-relationship simply means creating a relationship with itself. 
