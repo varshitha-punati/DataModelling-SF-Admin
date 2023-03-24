@@ -165,7 +165,7 @@ There are two different types of Objects
 - Lookup Relationship.
 - Many-Many Relationship.
 - Hierarchy Relationship (we can not use this relationship).
-- # 1. Master-Detail relationship:
+- ### 1. Master-Detail relationship:
 
 - In this type of relationship, one object acts as a master and other act as a detail object. In other words, this relationship acts as a parent-child relationship. - We use this type of relationship when we want to bound two objects tightly or closely dependent on each other.
 - The behavior of Master-Detail relationship:
@@ -176,7 +176,7 @@ There are two different types of Objects
 - We can also have roll-up summary fields in master-detail relationships which helps us to calculate values from child records by using aggregate functions like  	Count, Sum,  Min, Max.
 - The master-detail field is required on the detail record’s page layout.
 - We can only create a maximum of 2 master-detail relationships per object. In a master-detail relationship both the objects are strongly coupled to each other.
-- # Lookup Relationship
+- ### 2.Lookup Relationship
 - In this, both objects are loosely coupled, which means that if one gets deleted then the related object will not get deleted.
 
 - The behavior of the Look-Up relationship:
@@ -190,16 +190,16 @@ There are two different types of Objects
 - Some important points to remember:
 - If we delete a child record and then restore it from the recycle bin, the master-detail relationship gets lost at the time of deletion and does not get restored     after child/detail getting restored.
 - To convert a master-detail to look-up we have to check that there is no roll-up summary field available and can convert a look-up to master-detail if lookup field   in all records contains a value.
-- #3. Many-to-Many relationships:
+- ### 3. Many-to-Many relationships:
 - In many-to-many relationships, records of particular objects are linked to multiple records of different objects and vice versa. 
 - There is no such field as a many-to-many relationship in Salesforce, we can create a many-to-many relationship by creating two master-detail relationships with a common object. 
 - This common object can also be specified as the junction object.
 
-- #4. Self-relationship:
+- ### 4. Self-relationship:
 -Self-relationship simply means creating a relationship with itself. 
 - In this, we can relate an object with itself by look-up. Example: Account object has a field called Parent Account which shows the self-relationship in Account.
 
-- #5. External relationship:
+- ### 5. External relationship:
 
 - This is a new field type that has been introduced with Salesforce Connect. 
 - To link an external object to another external object, we use the external relationship field. 
