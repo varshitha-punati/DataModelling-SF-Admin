@@ -205,6 +205,19 @@ There are two different types of Objects
 - In many-to-many relationships, records of particular objects are linked to multiple records of different objects and vice versa. 
 - There is no such field as a many-to-many relationship in Salesforce, we can create a many-to-many relationship by creating two master-detail relationships with a common object. 
 - This common object can also be specified as the junction object.
+- Using Junction Object we can achieve many to many relationship in Salesforce.
+
+- What is Junction Object: 
+- A child Custom Object having two parent Object only of a master detail relationship known as Junction Object.
+![image](https://user-images.githubusercontent.com/72751737/227468460-ec3e34fc-4bcf-4e5b-85e8-251f787d377b.png)
+
+- Considerations for Many to Many Relationship:
+- Standard objects cannot be at the detail side of a custom object in a master-detail relationship.
+- An object can only appear once in multilevel master-detail relationships. 
+- For example, an object which is part of one multilevel master-detail relationship can’t also be the owner of the master object in another multilevel master-detail relationship.
+- You cannot create a master-detail relationship in which the User or Lead objects are at the master side of relationship.
+- As per best practice, we should not have more than 10,000 child records for a master-detail relationship.
+- A junction object can’t be master in another master-detail relationship.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 - ### 4. Self-relationship:
 -Self-relationship simply means creating a relationship with itself. 
